@@ -2,11 +2,11 @@
 First of all, the database can be created with fields  
 
 	Field            Type                Constraints	                                              
-	id               unsigned int        auto_increment	 NOT NULL 
-	senderEmail		   varchar(50)      	 NOT NULL 
-	receiverEmail		 varchar(50)     		 NOT NULL   
-	subject		    	 varchar(50)
-	body 			       varchar(5000)			 NOT NULL 
+	id               unsigned int        Auto Increment-NOT NULL 
+	senderEmail      varchar(50)         NOT NULL 
+	receiverEmail    varchar(50)         NOT NULL   
+	subject          varchar(50)
+	body             varchar(5000)       NOT NULL 
 	hasProcessed     bool                NOT NULL 
 
 Create Table
